@@ -1,0 +1,57 @@
+.app{
+    background-color: rgb(242, 248, 254);
+    margin: 0 auto;
+    max-width: 1024px;
+    min-height: calc(100vh - 100px);
+}
+.app__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em ;
+    box-shadow: 0 10px 5px -5px #5a59590c;
+}
+.app__operForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #555A88;
+    border-radius: 0.2em;
+    cursor: pointer;
+    padding: 0.5em ;
+    transition: background-color 0.2s, scale 0.2s, box-shadow 0.3s ;
+}
+.app__operForm h3,
+.app__operForm i{
+    font-weight: 700;
+    color: white;
+}
+.app__operForm:hover{
+    background-color: #4f558a;
+    box-shadow: 0px 0px 10px 0px rgb(204, 204, 204);
+    scale: 1.005;
+}
+.app__footer{
+    background-color: #868cc24c;
+    box-shadow: 0 -10px 10px -5px #868cc237;
+    bottom: 0;
+    max-width: 1024px;
+    height: 100px;
+    z-index: 50;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app__footer__text{
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.app__footer__span{
+    font-weight: 800;
+    color: #555A88;
+    text-shadow: 1px 1px 2px #00004a82;
+}
+

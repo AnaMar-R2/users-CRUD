@@ -1,0 +1,97 @@
+.users__container{
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em 3em;
+}
+.user{
+    background-color: white;
+    width: 285px;
+    height: 200px;
+    box-shadow: 3px 3px 8px 2px #8e8e8e;
+    border-radius: 2px;
+    padding: 0.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+.user__title{
+    border-bottom: 1px solid #5a59591b;
+}
+.user__items{
+    border-bottom: 1px solid #5a59591b;
+    padding: 0.5em 0 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+.user__item{
+    display: flex;
+    flex-direction: column;
+}
+.user__label{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #979797;
+    letter-spacing: 1px;
+    margin-left: 0.5em;
+}
+.user__value{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.user__buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5em;
+}
+.btn{
+    width: 31px;
+    height: 33px;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user__delete{
+    background-color: #D85D5D;
+    color: white;
+    border: solid 1px #D93F3F;
+}
+.user__update{
+    background-color: #f6f6f6;
+    color: #bdbdbd;
+    border: solid 1px #bdbdbd;
+}
+.user__add{
+    width: 280px;
+    height: 200px;
+    background-color: #ffffff5e;
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #979797;
+    border: 2px #979797 dashed ;
+    box-shadow: 3px 3px 8px 2px #8e8e8e4a;
+    cursor: pointer;
+    transition: scale 0.3s ease;
+}
+.user__add:hover{
+    scale: 1.008;
+}
+.user__add span{
+    font-size: 2.6rem;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px #979797 dashed ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
